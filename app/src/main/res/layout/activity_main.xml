@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:text="Masukan Quotes:"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+
+    <EditText
+        android:id="@+id/isiQuotes"
+        android:layout_width="245dp"
+        android:layout_height="142dp"
+        android:background="#F1F1F1"
+        android:text="Contoh: Isi Quotes....."
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isiQuotes"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="10dp"
+        android:text="Masukan Penulis:"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <EditText
+        android:id="@+id/isiPenulis"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:text="Contoh: Andre"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="139dp"
+        android:layout_height="56dp"
+        android:background="#F4F4F4"
+        android:text="Buat Quotes"
+        android:layout_below="@+id/isiPenulis"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="217dp"
+        android:layout_height="142dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+</RelativeLayout>
